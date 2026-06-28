@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aether Agents AI — Custom AI Agents for Local Businesses</title>
+    <title>Aether Agents AI — Custom AI Agents + Open Source Tools</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <span class="logo">Aether Agents</span>
+            <a href="#tools" class="nav-link">Free Tools</a>
+            <a href="https://buy.stripe.com/dRmbJ1964cXW8nn2QPb3q00" class="nav-link">Buy a Script</a>
         </nav>
     </header>
 
     <main>
         <section class="hero">
             <h1>Your Business Runs on Expertise.<br>Now It Can Run on Autopilot.</h1>
-            <p class="hero-sub">We build custom AI agents for local businesses — handling the repetitive work that eats your time, so you can focus on what actually grows your revenue.</p>
+            <p class="hero-sub">We build custom AI agents for local businesses — and free open-source tools for the homelab community.</p>
             <a href="mailto:grantmitchellaetheragent@gmail.com" class="cta">Get a Free Assessment →</a>
         </section>
 
@@ -68,24 +70,81 @@
             <p class="dfy-guarantee">⚡ Delivery within 48 hours · Revisions included · Money-back if you're not happy</p>
         </section>
 
-        <section class="tools">
-            <h2>🛠 Free Open-Source Tools</h2>
-            <p class="tools-sub">Grab these right now — free, MIT-licensed, ready to use.</p>
+        <section id="tools" class="tools">
+            <h2>🛠 Open Source Tools Portfolio</h2>
+            <p class="tools-sub">Free, MIT-licensed, <code>curl | bash</code> install. Zero dependencies. Built for the homelab and self-hosted community. If these save you time, <strong>support the project</strong>.</p>
+            
+            <div class="donate-bar">
+                <span>Support these tools →</span>
+                <span class="donate-links">
+                    <strong>Cash App:</strong> <code>$aetheragent</code>
+                    <strong>Stripe:</strong> <a href="https://buy.stripe.com/dRmbJ1964cXW8nn2QPb3q00">Buy me a coffee</a>
+                </span>
+            </div>
+
             <div class="tools-grid">
                 <div class="tool-card">
-                    <h3>🔍 Fingerprint CLI</h3>
-                    <p>Python CLI for the Fingerprint Pro API. Query visitors, events, webhooks from your terminal.</p>
-                    <a href="https://github.com/aethernet404/fingerprint-cli" class="tool-link">View on GitHub →</a>
+                    <div class="tool-icon">🩺</div>
+                    <h3>HealthBot</h3>
+                    <p>Self-hosted server health monitor. CPU, RAM, disk, uptime. Telegram alerts. Dark-mode HTML dashboard.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · Python · No deps</div>
+                    <a href="https://github.com/aethernet404/healthbot" class="tool-link">GitHub →</a>
                 </div>
                 <div class="tool-card">
-                    <h3>🕷 Web Scraper Kit</h3>
-                    <p>No-code web scraper. Edit a JSON config, run one command, get structured data out.</p>
-                    <a href="https://github.com/aethernet404/web-scraper-kit" class="tool-link">View on GitHub →</a>
+                    <div class="tool-icon">🔔</div>
+                    <h3>AlertMe</h3>
+                    <p>Uptime & health monitor — check URLs, ports, processes. Get Telegram alerts when things go down.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · Python · Zero deps</div>
+                    <a href="https://github.com/aethernet404/alertme" class="tool-link">GitHub →</a>
                 </div>
                 <div class="tool-card">
-                    <h3>💬 Need Something Custom?</h3>
-                    <p>I build scripts, bots, scrapers, and automation on demand. $25-50, same-day delivery.</p>
-                    <a href="mailto:grantmitchellaetheragent@gmail.com" class="buy-btn">Hire Me →</a>
+                    <div class="tool-icon">📊</div>
+                    <h3>StatusPage</h3>
+                    <p>Self-hosted status page generator. Free alternative to Statuspage.io. Monitor services, show uptime.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · Deploy to GitHub Pages</div>
+                    <a href="https://github.com/aethernet404/statuspage" class="tool-link">GitHub →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🐳</div>
+                    <h3>DockWatch</h3>
+                    <p>Docker container manager. List, monitor, update, backup containers. Crash alerts via Telegram.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · Needs Docker</div>
+                    <a href="https://github.com/aethernet404/dockwatch" class="tool-link">GitHub →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">💾</div>
+                    <h3>ConfigBackup</h3>
+                    <p>Automated config backups to GitHub. One command, version controlled, scheduled rotation.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · GitHub push</div>
+                    <a href="https://github.com/aethernet404/configbackup" class="tool-link">GitHub →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🔍</div>
+                    <h3>LogSniffer</h3>
+                    <p>Smart log watcher with Telegram alerts. Tail any log file, match patterns, get notified instantly.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · Pattern matching</div>
+                    <a href="https://github.com/aethernet404/logsniffer" class="tool-link">GitHub →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🌐</div>
+                    <h3>NetDash</h3>
+                    <p>Network latency & ping monitor. Check connectivity to any host. Beautiful HTML dashboard.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · Ping-based</div>
+                    <a href="https://github.com/aethernet404/netdash" class="tool-link">GitHub →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🔒</div>
+                    <h3>CertWatch</h3>
+                    <p>SSL certificate expiry checker. Monitor expiration dates across all your domains. Never get caught out.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · Python stdlib</div>
+                    <a href="https://github.com/aethernet404/certwatch" class="tool-link">GitHub →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🧹</div>
+                    <h3>DockerClean</h3>
+                    <p>Docker disk space recovery. One command to clean images, containers, volumes, build cache.</p>
+                    <div class="tool-meta"><code>curl | bash</code> · Space report</div>
+                    <a href="https://github.com/aethernet404/dockerclean" class="tool-link">GitHub →</a>
                 </div>
             </div>
         </section>
@@ -114,6 +173,7 @@
 
     <footer>
         <p>Aether Agents AI · Oceanside, CA</p>
+        <p>Cash App: <code>$aetheragent</code> · <a href="https://buy.stripe.com/dRmbJ1964cXW8nn2QPb3q00">Stripe</a></p>
         <p><a href="mailto:grantmitchellaetheragent@gmail.com">grantmitchellaetheragent@gmail.com</a></p>
     </footer>
 </body>
